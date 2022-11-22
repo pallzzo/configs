@@ -1,7 +1,7 @@
 #Train/val/test sets
 path: ../datasets/poc2
 train: images/train
-val: images/test
+val: images/val
 test: #test images
 
 #Classes
