@@ -1,5 +1,5 @@
 #paths
-path: ~mlenv_1/datasets/alldumps
+path: ../datasets/alldumps
 train: images/train
 val: images/val
 test: null
