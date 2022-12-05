@@ -1,0 +1,33 @@
+#Train/val/test sets
+path: ../datasets/poc2
+train: images/train
+val: images/val
+test: #test images
+
+#Classes
+nc: 179
+names: ['CERT_AUTH', 'TOT_PKGS', 'NO_ROL', 'DRWER', 'INSR', 'NT_WGT', 'TOT_QTY', 'FX_INST', 'HS_CODE', 'DT',
+        'ADD_NOT',
+        'NET_WGT_UNIT', 'PLACE_RECEIPT', 'PI_NUM', 'IRC_NO', 'LOT_NUM', 'APP_NME_ADD', 'ASSR', 'BENF_NAME',
+        'TRANS_MODE_CLS', 'BEN_NME_ADD', 'SHIP_DT', 'INS_NUM', 'NTFY_PRTY_NME', 'AODT', 'ISSBANK', 'IC_EMAIL',
+        'IP_NUM',
+        'STMT', 'CN_NUM', 'VOY', 'PIN_NUM', 'CLM_TL_NO', 'SURV', 'PO_DATE', 'LC_NUM', 'NTFY_PRTY_ADD', 'TR_WGT',
+        'APPL_NAME', 'PI_DT', 'NTN_NUM', 'AMT', 'ISS_PL', 'APPL_ADDR', 'ADD_FRT_CHG', 'CNT_DT', 'BNK_BIN', 'AWB_NUM',
+        'TITLE', 'LCAF_NO', 'ODR_NUM', 'INV_DT', 'GR_WGT_UNIT', 'SHPER', 'VSL', 'NTFY_PRTY', 'SHP_CO', 'EXP_DT',
+        'CSGN',
+        'FNL_DST', 'BAT_NUM', 'EXPTR', 'APPL_EMAIL', 'NO_ORG_ISS', 'POD', 'TIN_NUM', 'DEL_TRM', 'CNTR_NUM', 'MFG_DT',
+        'BENF_VAT_NUM', 'BL_TITLE', 'SHPER_ADD', 'CNTRLR_NM', 'ISS_DT', 'AMT_WRD', 'ACT_NUM', 'IC_NMADD', 'FLT_NUM',
+        'TYPE', 'NET_WGT_NUM', 'ORG_NUM', 'DA_FAX', 'CLM_PY_AT', 'BALE_NUM', 'CO', 'FOB_AMT', 'ISR_NME', 'CHARGES',
+        'BL_DATE', 'SIGN', 'COL_BNK', 'CNT_NO', 'AGNT_EMAIL', 'INCOTERMS', 'FM_NUM', 'RECV_NME_ADD', 'RSV_SOB',
+        'BN_TEL_NUM', 'UNT_PRC', 'INS', 'CR_NUM', 'DEL_AGNT', 'SL_NUM', 'TOTAL_AMT', 'DRWEE', 'PR_BNK_NME_ADD',
+        'CO_SUP', 'AODP', 'REMI_BNK', 'ADDR_TO', 'AMT_CUR_WRD', 'DRWER_SIG', 'DRFT_NO', 'CLM_AGNT', 'TRM_CON',
+        'BA_NUM',
+        'TOT_MSRM_UNT', 'FRT_NOT', 'APP_RULES', 'CFR_AMT', 'BN_STMT', 'DA_PNO', 'ON_BRD_NOT', 'CRR', 'APPL_COUNTRY',
+        'PO_NO', 'SHP_MARKS', 'ISR', 'FRT', 'LC_ISS_DT', 'BENF_COUNTRY', 'SHP_LD_CNT_TRM', 'AMT_CUR', 'PL_NUM',
+        'SHPER_NME', 'GR_WGT', 'COV_REQD', 'PN_APPL', 'CRD_INS', 'SIGN_CPT', 'CUR', 'PCK_DT', 'FRT_NT1', 'PMT_TRMS',
+        'TOT_MSRM', 'ORDER_DT\t', 'MANF_NAME_ADD', 'PCK_COND', 'REF_BNK', 'BL_NUM', 'NUM_PLT', 'NUM_CNT', 'SHP_DT',
+        'MAT_DT', 'INV_NUM', 'VAT_NUM', 'POL', 'GR_WGT_NUM', 'INV_NUM\t', 'NTFY_PRTY2', 'BN_FAX_NO', 'IEC_CODE',
+        'TNR',
+        'ETA', 'QTY', 'DOC_LST', 'PAYEE', 'IP_DT', 'BN_CNF_DCL', 'PCK_NUM', 'NO_ITEMS', 'DRWER_ADD', 'TO_ADDR',
+        'GOODS',
+        'IREF_NO', 'CSGN_NME', 'BENF_ADDR', 'ON_BRD_DT', 'AGNT_CRR'] 
